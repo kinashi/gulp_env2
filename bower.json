@@ -1,0 +1,19 @@
+{
+  "name": "gulp-env",
+  "description": "",
+  "main": "src/js/entry.js",
+  "authors": "",
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "velocity": "^1.2.3",
+    "axios": "^0.11.1"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "gulp-env",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm-run-all _clean _gulp",
+    "watch": "gulp watch",
+    "_clean": "rimraf public",
+    "_gulp": "gulp"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "bower-webpack-plugin": "^0.1.9",
+    "coffee-script": "^1.10.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-data": "^1.2.1",
+    "gulp-imagemin": "^3.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-util": "^3.0.7",
+    "gulp.spritesmith": "^6.2.1",
+    "npm-run-all": "^2.1.1",
+    "rimraf": "^2.5.2",
+    "vinyl-buffer": "^1.0.0",
+    "webpack": "^1.13.1"
+  }
+}
